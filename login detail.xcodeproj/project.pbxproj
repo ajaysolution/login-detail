@@ -14,6 +14,7 @@
 		36D9AB1A23E2949E00A27764 /* login_detail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36D9AB1823E2949E00A27764 /* login_detail.xcdatamodeld */; };
 		36D9AB1C23E294A100A27764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D9AB1B23E294A100A27764 /* Assets.xcassets */; };
 		36D9AB1F23E294A100A27764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D9AB1D23E294A100A27764 /* LaunchScreen.storyboard */; };
+		36D9AB2923E2992B00A27764 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D9AB2823E2992B00A27764 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		36D9AB1B23E294A100A27764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D9AB1E23E294A100A27764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36D9AB2023E294A100A27764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36D9AB2823E2992B00A27764 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,33 @@
 		36D9AB0E23E2949E00A27764 /* login detail */ = {
 			isa = PBXGroup;
 			children = (
-				36D9AB0F23E2949E00A27764 /* AppDelegate.swift */,
-				36D9AB1123E2949E00A27764 /* SceneDelegate.swift */,
-				36D9AB1323E2949E00A27764 /* ViewController.swift */,
-				36D9AB1523E2949E00A27764 /* Main.storyboard */,
+				36D9AB2723E2972700A27764 /* controller */,
+				36D9AB2623E2970000A27764 /* view */,
 				36D9AB1B23E294A100A27764 /* Assets.xcassets */,
-				36D9AB1D23E294A100A27764 /* LaunchScreen.storyboard */,
 				36D9AB2023E294A100A27764 /* Info.plist */,
 				36D9AB1823E2949E00A27764 /* login_detail.xcdatamodeld */,
 			);
 			path = "login detail";
+			sourceTree = "<group>";
+		};
+		36D9AB2623E2970000A27764 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				36D9AB1523E2949E00A27764 /* Main.storyboard */,
+				36D9AB1D23E294A100A27764 /* LaunchScreen.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		36D9AB2723E2972700A27764 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				36D9AB0F23E2949E00A27764 /* AppDelegate.swift */,
+				36D9AB1123E2949E00A27764 /* SceneDelegate.swift */,
+				36D9AB1323E2949E00A27764 /* ViewController.swift */,
+				36D9AB2823E2992B00A27764 /* TableViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +163,7 @@
 				36D9AB1A23E2949E00A27764 /* login_detail.xcdatamodeld in Sources */,
 				36D9AB1423E2949E00A27764 /* ViewController.swift in Sources */,
 				36D9AB1023E2949E00A27764 /* AppDelegate.swift in Sources */,
+				36D9AB2923E2992B00A27764 /* TableViewController.swift in Sources */,
 				36D9AB1223E2949E00A27764 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

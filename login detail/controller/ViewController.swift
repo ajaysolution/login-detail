@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var usernameTxt: UITextField!
+    @IBOutlet weak var passwordTxt: UITextField!
+    
+    var usernameTable : String = ""
+    
     override func viewDidLoad() {
+  print(usernameTable)
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func RegisterBtn(_ sender: Any) {
+        usernameTable = usernameTxt.text!
+    }
 }
 
